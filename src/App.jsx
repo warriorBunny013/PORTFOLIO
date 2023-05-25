@@ -15,9 +15,15 @@ function App() {
      <div className="fixed z-10 -left-72 top-72 invisible md:visible">
      <div className="flex -rotate-90 gap-10 opacity-75 text-base p-12 tracking-widest font-mono font-bold">
           <div className="flex gap-5 p-4 ">
-          <i className="fa-brands rotate-90 fa-linkedin fa-lg cursor-pointer hover:duration-700 hover:text-cyan-400"></i>
-          <i className="fa-brands rotate-90 fa-github fa-lg  cursor-pointer hover:duration-700 hover:text-cyan-400"></i>
-          <i className="fa-brands rotate-90 fa-instagram fa-lg cursor-pointer hover:duration-700 hover:text-cyan-400"></i>
+         
+
+          <a href="https://www.linkedin.com/in/uditi-d-20573b200/">
+            <i className="fa-brands rotate-90 fa-linkedin fa-lg cursor-pointer hover:duration-700 hover:text-cyan-400"></i>
+            </a>
+          <a href="https://github.com/warriorBunny013">
+            <i className="fa-brands rotate-90 fa-github fa-lg  cursor-pointer hover:duration-700 hover:text-cyan-400"></i>
+             </a>
+             <a href="https://www.instagram.com/artme_empire/"><i className="fa-brands rotate-90 fa-instagram fa-lg cursor-pointer hover:duration-700 hover:text-cyan-400"></i></a>
           </div>
            <a href="#contact"><div className="hover:line-through hover:animate-pulse cursor-pointer hover:duration-700 hover:text-cyan-400">Contact</div></a>
            <a href="#about"><div className="hover:line-through hover:animate-pulse cursor-pointer hover:duration-700 hover:text-cyan-400">About</div></a>
