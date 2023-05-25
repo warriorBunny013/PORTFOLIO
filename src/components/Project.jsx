@@ -108,7 +108,7 @@ const Project = () => {
     <div className="font-bold text-3xl mb-2">SPORTOZO</div>
   
    
-    <p className="z-10 font-mono opacity-75">Group chating application that allows the user's socialize without the need to revealing name</p>
+    <p className="z-10 font-mono opacity-75">where players can register for the upcomming tounaments, admin dashboard implimented.Made with PHP and MYSQL.</p>
            
   </div>
   <div className="m-2 flex gap-2 w-1/2 items-center">
@@ -143,6 +143,50 @@ const Project = () => {
        </div>      
         
         
+       <div className="md:pl-20 md:pr-20 pt-20 sm:pl-10 sm:pr-10 min-h-screen  ">   
+           <div className="flex justify-center flex-wrap gap-20">
+           {/* <span className="font-bold tracking-widest">FEATURED PROJECT</span> */}
+          <Tilt>
+          <div data-aos="fade-up-right" className="max-w-sm border font-mono overflow-hidden">
+  <img className="w-full" src="multiply.png" alt="Sunset in the mountains"/>
+  <div className="px-6 py-4">
+  <div className="text-xl z-10 font-mono font-bold">08</div>
+    <div className="font-bold text-3xl mb-2">MULTIPLY</div>
+  
+   
+    <p className="z-10 font-mono opacity-75">A multi-utility app with auto-theme(light/dark) mode generation by tracking the time of the day,Flashcards,games,Tip calculator and many more.</p>
+           
+  </div>
+  <div className="m-2 flex gap-2 w-1/2 items-center">
+           <a href="https://multiply-uditidas.netlify.app/"><button className="cursor-pointer mt-5 px-3 py-1 hover:bg-transparent hover:animate-pulse border-2 w-full bg-white text-black font-bold hover:text-white">Live</button></a>
+        
+           <a href="https://github.com/warriorBunny013/Multiply-multipurpose-website"><button className="cursor-pointer mt-5 px-3 py-1 hover:bg-cyan-400 hover:animate-pulse border-2 w-full">Github</button></a>
+        
+           </div>
+             </div>
+             </Tilt>
+<Tilt>
+<div data-aos="fade-up-left" className="max-w-sm border font-mono overflow-hidden">
+  <img className="w-full" src="Communify.png" alt="Sunset in the mountains"/>
+  <div className="px-6 py-4">
+  <div className="text-xl z-10 font-mono font-bold">09</div>
+    <div className="font-bold text-3xl mb-2">COMMUNIFY</div>
+  
+   
+    <p className="z-10 font-mono opacity-75">where organisations can form groups and post job listings.It's literally a FB for jobs.</p>
+           
+  </div>
+  <div className="m-2 flex gap-2 w-1/2 items-center">
+           <a href="https://frontend-uditi-das013.netlify.app/"><button className="cursor-pointer mt-5 px-3 py-1 hover:bg-transparent hover:animate-pulse border-2 w-full bg-white text-black font-bold hover:text-white">Live</button></a>
+        
+           <a href="https://github.com/warriorBunny013/frontend"><button className="cursor-pointer mt-5 px-3 py-1 hover:bg-cyan-400 hover:animate-pulse border-2 w-full">Github</button></a>
+        
+           </div>
+             </div>
+             </Tilt>
+          </div>
+        
+       </div>   
            </>
     );
 }
