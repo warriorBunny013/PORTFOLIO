@@ -24,34 +24,34 @@ const About = () => {
      className="text-xl md:text-xl lg:text-2xl text-center text-wrap mt-20 font-mono font-bold">MY TECHNICAL SKILLS </div>
      <div className="flex flex-wrap gap-10 pt-10">
       <div>
-      <img className="h-14" src="https://icon-library.com/images/html5-icon/html5-icon-13.jpg" alt="html" />
+      <img className="h-14" src="html.jpg" alt="html" />
       <p className="text-white ml-2">HTML</p>
       </div>
       <div>
-      <img className="h-14" src="https://cdn.icon-icons.com/icons2/1826/PNG/512/4202020css3htmllogosocialsocialmedia-115668_115633.png" alt="css" />
+      <img className="h-14" src="css.png" alt="css" />
       <p className="text-white ml-2">CSS</p>
       </div>
       <div>
-      <img className="ml-5 h-14" src="https://icon-library.com/images/javascript-icon-png/javascript-icon-png-7.jpg" alt="js" />
+      <img className="ml-5 h-14" src="js.jpg" alt="js" />
       <p className="text-white">Javascript</p>
       </div>
       <div>
-      <img className="h-14" src="https://icon-library.com/images/react-icon/react-icon-29.jpg" alt="React" />
+      <img className="h-14" src="reactlogo.jpg" alt="React" />
       
       <p className="text-white ml-2">React</p>
       </div>
       <div>
-      <img className="h-14" src="https://icon-library.com/images/react-icon/react-icon-28.jpg" alt="Redux" />
+      <img className="h-14" src="redux.jpg" alt="Redux" />
       
       <p className="text-white ml-2">Redux</p>
       </div>
       <div>
-      <img className="h-14" src="https://global.discourse-cdn.com/standard17/uploads/threejs/original/2X/e/e4f86d2200d2d35c30f7b1494e96b9595ebc2751.png" alt="Redux" />
+      <img className="h-14" src="threejs.png" alt="threejs" />
       
       <p className="text-white ml-2"> ThreeJS</p>
       </div>
       <div>
-      <img className="h-14" src="https://icon-library.com/images/node-js-icon/node-js-icon-8.jpg" alt="Nodejs" />
+      <img className="h-14" src="nodejs.jpg" alt="Nodejs" />
       
       <p className="text-white">NodeJS</p>
       </div>
@@ -61,33 +61,33 @@ const About = () => {
       <p className="text-white">Tailwind</p>
       </div>
       <div>
-      <img className="h-14 ml-2" src="https://icon-library.com/images/bootstrap-icon-png/bootstrap-icon-png-28.jpg" alt="bootstrap" />
+      <img className="h-14 ml-2" src="bootstrap.jpg" alt="bootstrap" />
 
       <p className="text-white">Bootsrap</p>
       </div>
       <div>
-      <img className="w-14" src="https://icon-library.com/images/no-sql-icon/no-sql-icon-12.jpg" alt="mongodb" />
+      <img className="h-14" src="mongodb.jpg" alt="mongodb" />
       <p className="text-white">MongoDB</p>
       </div>
       <div>
-      <img className="w-14" src="https://www.freepnglogos.com/uploads/logo-mysql-png/logo-mysql-mysql-and-moodle-elearningworld-5.png" alt="mysql" />
-      <p className="text-white ml-2">MYSQL</p>
+      <img className="h-14" src="mysqllogo.png" alt="mysql" />
+      <p className="text-white ml-4">MYSQL</p>
       </div>
       <div>
-      <img className="w-14" src="https://sass-lang.com/assets/img/styleguide/seal-color-reversed-c50d9b78.png" alt="sass" />
+      <img className="w-14" src="scss.png" alt="sass" />
       <p className="text-white ml-2">SCSS</p>
       </div>
       <div>
-      <img className="w-14" src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png" alt="git/github" />
+      <img className="w-14" src="gitlogo.png" alt="git/github" />
       
       <p className="text-white ml-2">Git</p>
       </div>
       <div>
-      <img className="w-14" src="https://icon-library.com/images/python-file-icon/python-file-icon-28.jpg" alt="python" />
+      <img className="w-14" src="pythonlogo.jpg" alt="python" />
       <p className="text-white ml-2">Python</p>
       </div>
       <div>
-      <img className="w-14" src="https://icon-library.com/images/icon-c/icon-c-26.jpg" alt="c/c++" />
+      <img className="w-14" src="cpp.jpg" alt="c/c++" />
       
       <p className="text-white ml-2">C/C++</p>
       </div>
@@ -97,12 +97,12 @@ const About = () => {
       <p className="text-white ml-2">NextJS</p>
       </div>
       <div>
-      <img className="w-14" src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/181_Java_logo_logos-512.png" alt="java" />
+      <img className="w-14" src="javalogo.png" alt="java" />
       <p className="text-white ml-2">Java</p>
       </div>
       <div>
 
-      <img className="w-14" src="https://images.ctfassets.net/ooa29xqb8tix/sHolxYPkMQO1gT5u6Aycp/bea05ce2b4fa806b7ede7a9d9dc16375/UXlogo.png?w=400&q=50?fm=jpg&q=50" alt="ui/ux" />
+      <img className="w-14" src="uilogo.png" alt="ui/ux" />
       
       <p className="text-white ml-2">UI/UX</p>
       </div>
@@ -114,11 +114,11 @@ const About = () => {
       <div data-aos="fade-left"
      data-aos-easing="linear" className="flex justify-center flex-wrap gap-20 pt-10">
       <div>
-      <img className="h-14" src="https://static-00.iconduck.com/assets.00/com-visualstudio-code-icon-2048x2047-taoxz1z5.png" alt="html" />
+      <img className="h-14" src="vscode.png" alt="html" />
       <p className="text-white">VS Code</p>
       </div>
       <div>
-      <img className="w-12 ml-4" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Jupyter_logo.svg/1200px-Jupyter_logo.svg.png" alt="html" />
+      <img className="w-12 ml-4" src="jupyter.png" alt="html" />
       <p className="text-white ml-2">Notebook</p>
       </div>
       <div>
