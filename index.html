@@ -11,5 +11,16 @@
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
+    <script defer>
+      this.mount = document.querySelector('#your_scene');
+this.width = document.querySelector('#your_scene').offsetWidth;
+this.height = document.querySelector('#your_scene').offsetHeight;
+    </script>
+    <script>
+      this.renderer = new THREE.WebGLRenderer({ alpha: true });
+this.renderer.setPixelRatio(window.devicePixelRatio);
+this.renderer.setSize(this.width, this.height);
+this.mount.appendChild(this.renderer.domElement);
+    </script>
   </body>
 </html>

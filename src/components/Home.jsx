@@ -3,7 +3,7 @@ import { ComputersCanvas } from "./canvas";
 const Home = () => {
     return (
       <>
-        <div className="sm:pl-40 h-screen ">
+        <div className=" sm:pl-40 h-screen ">
           <div className="pl-10 lg:pt-40 ">
           <div className=" lg:w-1/2 mr-10">
            <h1 className=" pt-10 text-2xl font-mono transition duration-0 cursor-pointer hover:text-cyan-400 hover:duration-700 font-semibold tracking-[0.3em] opacity-75">UDITI DAS</h1>
@@ -29,7 +29,7 @@ const Home = () => {
              transition={{delay:0.8,duration:0.5,ease:"easeInOut"}}
             >
               I'm a web developer and I like to build really cool stuffs! 
-              I like to design in figma, Code in VScode and deploy in clouds.
+              I like to design in Figma, code in Visual Studio Code, and deploy to the cloud.
               </motion.div>
               <motion.div
                initial={{ opacity: 0,x:"0%",width:"100%"}}

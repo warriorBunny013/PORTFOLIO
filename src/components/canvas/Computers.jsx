@@ -21,7 +21,7 @@ const Computers = ({ isMobile }) => {
       <pointLight intensity={1} />
       <primitive
         object={computer.scene}
-        scale={isMobile ? 3 : 2.99}
+        scale={isMobile ? 1 : 4}
         position={isMobile ? [0, -3, -2.2] : [2, -0.9, 0]}
         rotation={[0, -5.5, 0]}
       />
@@ -34,7 +34,7 @@ const ComputersCanvas = () => {
 
   useEffect(() => {
     // Add a listener for changes to the screen size
-    const mediaQuery = window.matchMedia("(max-width: 500px)");
+    const mediaQuery = window.matchMedia("(max-width: 100vh)");
 
     // Set the initial value of the `isMobile` state variable
     setIsMobile(mediaQuery.matches);
@@ -57,8 +57,8 @@ const ComputersCanvas = () => {
     <Canvas
       frameloop='demand'
       shadows
-      dpr={[1, 2]}
-      camera={{ position: [20, 3, 5], fov: 25 }}
+      dpr={[2, 2]}
+      camera={{ position: [1, 23, 5], fov: 25 }}
       gl={{ preserveDrawingBuffer: true }}
    
     >
