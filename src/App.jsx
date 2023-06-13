@@ -12,8 +12,8 @@ function App() {
   return (
     <BrowserRouter>
     <div className="relative">
-     <div className="fixed xl:top-72 xl:-left-72 md:top-56 md:-left-56 -rotate-90 z-10 w-[100vh] invisible md:visible">
-     <div className="flex   gap-10 ml-4 opacity-75 text-base px-10 tracking-widest font-mono font-bold">
+     <div className="fixed xl:top-72 xl:-left-72 md:top-56 md:-left-56 -rotate-90 z-10 pt-10 w-[100vh] invisible md:visible">
+     <div className="flex md:p-10  sm:gap-10 ml-4 opacity-75 text-base px-10 tracking-widest font-mono font-bold">
           <div className="flex   gap-5 px-4">
           <a href="https://www.linkedin.com/in/uditi-d-20573b200/">
             <i className="fa-brands rotate-90 fa-linkedin fa-lg cursor-pointer hover:duration-700 hover:text-cyan-400"></i>
