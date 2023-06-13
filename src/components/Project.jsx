@@ -9,6 +9,25 @@ const Project = () => {
         <div className="md:pl-20 md:pr-20 pt-20 sm:pl-10 sm:pr-10 min-h-screen ">   
            <div className="flex justify-center flex-wrap gap-20">
            {/* <span className="font-bold tracking-widest">FEATURED PROJECT</span> */}
+        <Tilt>
+          <div data-aos="fade-up-right" className="max-w-sm border font-mono overflow-hidden">
+  <img  className="w-full" src="https://user-images.githubusercontent.com/97738453/237886571-d9d6c585-e4c9-47ee-8c92-a2087a5c5c9b.png" alt="Sunset in the mountains"/>
+  <div className="px-6 py-4">
+  <div className="text-xl z-10 font-mono font-bold">02</div>
+    <div className="font-bold text-3xl mb-2">TASKIFY</div>
+  
+   
+    <p className="z-10 font-mono opacity-75">It helps organizations to manage tasks and distribute them among employees. It also has a real-time commenting system below each task.</p>
+           
+  </div>
+  <div className="m-2 flex gap-2 w-1/2 items-center">
+           <a href="https://taskify-mern-frontend.vercel.app"><button className="cursor-pointer mt-5 px-3 py-1 hover:bg-transparent hover:animate-pulse border-2 w-full bg-white text-black font-bold hover:text-white">Live</button></a>
+        
+           <a href="https://github.com/warriorBunny013/TASKIFY-MERN"><button className="cursor-pointer mt-5 px-3 py-1 hover:bg-cyan-400 hover:animate-pulse border-2 w-full">Github</button></a>
+        
+           </div>
+             </div>
+             </Tilt>
          <Tilt>
           <div data-aos="fade-up-right" className="max-w-sm border font-mono overflow-hidden">
   <img  className="w-full" src="https://user-images.githubusercontent.com/97738453/237886571-d9d6c585-e4c9-47ee-8c92-a2087a5c5c9b.png" alt="Sunset in the mountains"/>
@@ -21,7 +40,7 @@ const Project = () => {
            
   </div>
   <div className="m-2 flex gap-2 w-1/2 items-center">
-           <a href="https://youtu.be/obzlaOPI8Rk"><button className="cursor-pointer mt-5 px-3 py-1 hover:bg-transparent hover:animate-pulse border-2 w-full bg-white text-black font-bold hover:text-white">Live</button></a>
+           <a href="https://delight-uditi.onrender.com"><button className="cursor-pointer mt-5 px-3 py-1 hover:bg-transparent hover:animate-pulse border-2 w-full bg-white text-black font-bold hover:text-white">Live</button></a>
         
            <a href="https://github.com/warriorBunny013/Delight"><button className="cursor-pointer mt-5 px-3 py-1 hover:bg-cyan-400 hover:animate-pulse border-2 w-full">Github</button></a>
         
@@ -40,7 +59,7 @@ const Project = () => {
            
   </div>
   <div className="m-2 flex gap-2 w-1/2 items-center">
-           <a href="https://youtu.be/-S0U_536Pdo"><button className="cursor-pointer mt-5 px-3 py-1 hover:bg-transparent hover:animate-pulse border-2 w-full bg-white text-black font-bold hover:text-white">Live</button></a>
+           <a href="https://traveleasy-uditi.onrender.com"><button className="cursor-pointer mt-5 px-3 py-1 hover:bg-transparent hover:animate-pulse border-2 w-full bg-white text-black font-bold hover:text-white">Live</button></a>
         
            <a href="https://github.com/warriorBunny013/TravelEasy-Final"><button className="cursor-pointer mt-5 px-3 py-1 hover:bg-cyan-400 hover:animate-pulse border-2 w-full">Github</button></a>
         
