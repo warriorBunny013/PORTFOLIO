@@ -11,7 +11,7 @@ const Project = () => {
            {/* <span className="font-bold tracking-widest">FEATURED PROJECT</span> */}
         <Tilt>
           <div data-aos="fade-up-right" className="max-w-sm border font-mono overflow-hidden">
-  <img  className="w-full" src="https://user-images.githubusercontent.com/97738453/237886571-d9d6c585-e4c9-47ee-8c92-a2087a5c5c9b.png" alt="Sunset in the mountains"/>
+  <img  className="w-full" src="https://user-images.githubusercontent.com/97738453/244947133-5e7ab201-ac99-4096-8f64-83557f661738.png" alt="Sunset in the mountains"/>
   <div className="px-6 py-4">
   <div className="text-xl z-10 font-mono font-bold">02</div>
     <div className="font-bold text-3xl mb-2">TASKIFY</div>
@@ -32,7 +32,7 @@ const Project = () => {
           <div data-aos="fade-up-right" className="max-w-sm border font-mono overflow-hidden">
   <img  className="w-full" src="https://user-images.githubusercontent.com/97738453/237886571-d9d6c585-e4c9-47ee-8c92-a2087a5c5c9b.png" alt="Sunset in the mountains"/>
   <div className="px-6 py-4">
-  <div className="text-xl z-10 font-mono font-bold">02</div>
+  <div className="text-xl z-10 font-mono font-bold">03</div>
     <div className="font-bold text-3xl mb-2">DELIGHT</div>
   
    
@@ -51,7 +51,7 @@ const Project = () => {
           <div data-aos="fade-up-left" className="max-w-sm border font-mono overflow-hidden">
   <img className="w-full" src="https://user-images.githubusercontent.com/97738453/237698574-3982043c-595e-47e0-b398-78bab9b9612d.png" alt="Sunset in the mountains"/>
   <div className="px-6 py-4">
-  <div className="text-xl z-10 font-mono font-bold">03</div>
+  <div className="text-xl z-10 font-mono font-bold">04</div>
     <div className="font-bold text-3xl mb-2">TRAVELEASY</div>
   
    
@@ -78,7 +78,7 @@ const Project = () => {
           <div data-aos="fade-up-right" className="max-w-sm border font-mono overflow-hidden">
   <img className="w-full" src="chatify.png" alt="Sunset in the mountains"/>
   <div className="px-6 py-4">
-  <div className="text-xl z-10 font-mono font-bold">04</div>
+  <div className="text-xl z-10 font-mono font-bold">05</div>
     <div className="font-bold text-3xl mb-2">CHATIFY</div>
   
    
@@ -97,7 +97,7 @@ const Project = () => {
           <div data-aos="fade-up-left" className="max-w-sm border font-mono overflow-hidden">
   <img className="w-full" src="student-db.png" alt="Sunset in the mountains"/>
   <div className="px-6 py-4">
-  <div className="text-xl z-10 font-mono font-bold">05</div>
+  <div className="text-xl z-10 font-mono font-bold">06</div>
     <div className="font-bold text-3xl mb-2">STORE DB</div>
   
    
@@ -123,7 +123,7 @@ const Project = () => {
           <div data-aos="fade-up-right" className="max-w-sm border font-mono overflow-hidden">
   <img className="w-full" src="sportozo.png" alt="Sunset in the mountains"/>
   <div className="px-6 py-4">
-  <div className="text-xl z-10 font-mono font-bold">06</div>
+  <div className="text-xl z-10 font-mono font-bold">07</div>
     <div className="font-bold text-3xl mb-2">SPORTOZO</div>
   
    
@@ -142,7 +142,7 @@ const Project = () => {
 <div data-aos="fade-up-left" className="max-w-sm border font-mono overflow-hidden">
   <img className="w-full" src="lookup.png" alt="Sunset in the mountains"/>
   <div className="px-6 py-4">
-  <div className="text-xl z-10 font-mono font-bold">07</div>
+  <div className="text-xl z-10 font-mono font-bold">08</div>
     <div className="font-bold text-3xl mb-2">LOOKUP</div>
   
    
@@ -169,7 +169,7 @@ const Project = () => {
           <div data-aos="fade-up-right" className="max-w-sm border font-mono overflow-hidden">
   <img className="w-full" src="multiply.png" alt="Sunset in the mountains"/>
   <div className="px-6 py-4">
-  <div className="text-xl z-10 font-mono font-bold">08</div>
+  <div className="text-xl z-10 font-mono font-bold">09</div>
     <div className="font-bold text-3xl mb-2">MULTIPLY</div>
   
    
@@ -188,7 +188,7 @@ const Project = () => {
 <div data-aos="fade-up-left" className="max-w-sm border font-mono overflow-hidden">
   <img className="w-full" src="Communify.png" alt="Sunset in the mountains"/>
   <div className="px-6 py-4">
-  <div className="text-xl z-10 font-mono font-bold">09</div>
+  <div className="text-xl z-10 font-mono font-bold">10</div>
     <div className="font-bold text-3xl mb-2">COMMUNIFY</div>
   
    
