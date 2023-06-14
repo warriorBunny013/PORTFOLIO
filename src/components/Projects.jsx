@@ -90,9 +90,9 @@ const Projects = () => {
 </div>
 
 <div className=" flex gap-2 w-1/2 items-center">
-           <a href='https://powerpuff-bugs-orchid-video-stream-hmgu.vercel.app/'><button className="cursor-pointer mt-5 px-3 py-1 hover:bg-transparent hover:animate-pulse border-2 w-full bg-white text-black font-bold hover:text-white">Live</button></a>
+           <a href='https://taskify-mern-frontend.vercel.app'><button className="cursor-pointer mt-5 px-3 py-1 hover:bg-transparent hover:animate-pulse border-2 w-full bg-white text-black font-bold hover:text-white">Live</button></a>
         
-           <a href='https://github.com/warriorBunny013/POWERPUFF-BUGS-ORCHID-VIDEO-STREAM'><button className="cursor-pointer mt-5 px-3 py-1 hover:bg-cyan-400 hover:animate-pulse border-2 w-full">Github</button></a>
+           <a href='https://github.com/warriorBunny013/TASKIFY-MERN'><button className="cursor-pointer mt-5 px-3 py-1 hover:bg-cyan-400 hover:animate-pulse border-2 w-full">Github</button></a>
         
            </div>
   </div>
