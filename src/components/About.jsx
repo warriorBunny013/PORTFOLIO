@@ -63,7 +63,7 @@ const About = () => {
       <div>
       <img className="h-14 ml-2" src="bootstrap.jpg" alt="bootstrap" />
 
-      <p className="text-white">Bootsrap</p>
+      <p className="text-white">Bootstrap</p>
       </div>
       <div>
       <img className="h-14" src="mongodb.jpg" alt="mongodb" />
