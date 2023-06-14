@@ -89,13 +89,13 @@ const Project = () => {
            {/* <span className="font-bold tracking-widest">FEATURED PROJECT</span> */}
          <Tilt>
           <div data-aos="fade-up-right" className="max-w-sm border font-mono overflow-hidden">
-  <img className="w-full" src="chatify.png" alt="Sunset in the mountains"/>
+  <img className="w-full" src="storedb.jpg" alt="Sunset in the mountains"/>
   <div className="px-6 py-4">
   <div className="text-xl z-10 font-mono font-bold">05</div>
     <div className="font-bold text-3xl mb-2">CHATIFY</div>
   
    
-    <p className="z-10 font-mono opacity-75">Group chating application that allows the user's socialize without the need to revealing name</p>
+    <p className="z-10 font-mono opacity-75">Group chating application that allows the users socialize without the need to authenticate their details</p>
            
   </div>
   <div className='flex gap-2 px-4 flex-wrap'>
@@ -205,10 +205,9 @@ const Project = () => {
 <div className="text-xs inline-flex items-center font-bold leading-sm uppercase px-3 py-1 bg-blue-200 text-blue-700 rounded-full">
   React</div>
 <div className="text-xs inline-flex items-center font-bold leading-sm uppercase px-3 py-1 bg-orange-200 text-orange-700 rounded-full">
-  Image generating API
+  Local storage
   </div>
-<div className="text-xs inline-flex items-center font-bold leading-sm uppercase px-3 py-1 bg-pink-200 text-pink-700 rounded-full">
-  Space font</div>
+
 <div className="text-xs inline-flex items-center font-bold leading-sm uppercase px-3 py-1 bg-yellow-200 text-yellow-700 rounded-full">
   Material UI</div>
 </div>
