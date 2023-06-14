@@ -212,7 +212,7 @@ const Project = () => {
   Material UI</div>
 </div>
   <div className="m-2 flex gap-2 w-1/2 items-center">
-           <a href="https://github.com/warriorBunny013/lookup"><button className="cursor-pointer mt-5 px-3 py-1 hover:bg-transparent hover:animate-pulse border-2 w-full bg-white text-black font-bold hover:text-white">Live</button></a>
+           <a href="https://lookup-uditidas.netlify.app"><button className="cursor-pointer mt-5 px-3 py-1 hover:bg-transparent hover:animate-pulse border-2 w-full bg-white text-black font-bold hover:text-white">Live</button></a>
         
            <a href="https://github.com/warriorBunny013/lookup"><button className="cursor-pointer mt-5 px-3 py-1 hover:bg-cyan-400 hover:animate-pulse border-2 w-full">Github</button></a>
         
