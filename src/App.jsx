@@ -5,12 +5,27 @@ import Projects from "./components/Projects"
 import Project from "./components/Project"
 import About from "./components/About"
 import Contact from "./components/Contact"
+import AnimatedCursor from "react-animated-cursor"
 // import Experience from "./components/Experience"
 import { Link,BrowserRouter,Routes,Route } from "react-router-dom"
 
 function App() {
   return (
     <BrowserRouter>
+    <AnimatedCursor
+  innerSize={8}
+  outerSize={35}
+  innerScale={1}
+  outerScale={2}
+  outerAlpha={0}
+  hasBlendMode={true}
+  innerStyle={{
+    backgroundColor: 'var(--cursor-color)'
+  }}
+  outerStyle={{
+    border: '3px solid var(--cursor-color)'
+  }}
+/>
     <div className="relative">
      <div className="fixed xl:top-72 xl:-left-72 md:top-56 md:-left-56 -rotate-90 z-10 pt-10 w-[100vh] invisible md:visible">
      <div className="flex md:p-10  sm:gap-10 ml-4 opacity-75 text-base px-10 tracking-widest font-mono font-bold">
@@ -53,7 +68,10 @@ function App() {
                  <Route exact path='/projects' element={<Projects/>}></Route>  
                  <Route exact path='/contact' element={< Contact />}></Route>  
           </Routes>  
+
+          
     </div>
+    <div className="font-mono absolute right-10 text-xs pb-10">Made with ❤️ by Uditi</div>
     </BrowserRouter>
   )
 }

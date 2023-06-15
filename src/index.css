@@ -3,6 +3,13 @@
   padding: 0;
   box-sizing: border-box;
  }
+ html {
+  --cursor-color: #fff;
+}
+
+html.dark-mode {
+  --cursor-color: #fff
+}
  .glass-effect{
   background: linear-gradient(135deg,rgba(255,255,255,0.1),rgba(255,255,255,0));
   -webkit-backdrop-filter: blur(20px);
