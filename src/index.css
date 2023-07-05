@@ -7,6 +7,16 @@
   --cursor-color: #fff;
 }
 
+@font-face { 
+  font-family: fonthtmllet; 
+  src: url('fonthtml.ttf');
+   }  
+.fonthtml{
+  font-family: fonthtmllet;
+  font-size: 2rem;
+  
+}
+
 html.dark-mode {
   --cursor-color: #fff
 }
