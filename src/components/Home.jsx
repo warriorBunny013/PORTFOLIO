@@ -19,12 +19,12 @@ const Home = () => {
              transition={{duration:0.6,ease:"easeInOut"}}
            
             >DEVELOPER</motion.div>
-           <motion.div className='right-full z-20 bg-cyan-400'
+           {/* <motion.div className='right-full z-20 bg-cyan-400'
              initial={{x:"160%",width:"100%"}}
              animate={{x:"0%",width:"0%"}}
              transition={{duration:0.6,ease:"easeInOut"}}
            >
-            </motion.div>
+            </motion.div> */}
            
             </div>
              
