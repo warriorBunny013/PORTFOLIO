@@ -22,7 +22,7 @@ const About = () => {
      <div id="skill" data-aos="fade-left"
      data-aos-easing="linear"
      className="text-xl md:text-xl lg:text-2xl text-center text-wrap mt-20 font-mono font-bold">MY TECHNICAL SKILLS </div>
-     <div className="flex flex-wrap gap-10 pt-10">
+     <div className="flex flex-wrap justify-center gap-10 pt-10">
       <div>
       <img className="h-14" src="html.jpg" alt="html" />
       <p className="text-white ml-2">HTML</p>
