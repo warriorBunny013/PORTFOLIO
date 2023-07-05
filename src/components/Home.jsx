@@ -7,6 +7,7 @@ const Home = () => {
       <>
         <div className=" sm:pl-40 h-screen ">
           <div className="pl-10 lg:pt-40 ">
+            
           <div className=" lg:w-1/2 mr-10">
             <motion.div initial={{ opacity: 0,x:"0%",width:"100%"}}
                animate={{x:"0%", opacity: 1,width:"100%"}}
