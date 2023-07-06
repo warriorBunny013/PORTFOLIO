@@ -7,7 +7,7 @@ AOS.init();
 const About = () => {
     return (
       <>
-       <div className=" flex flex-col lg:pl-40 min-h-screen lg:pr-40">
+       <div className=" flex flex-col lg:pl-40 min-h-screen mt-[20rem] md:mt-[10rem] lg:pr-40">
         <div className="glass-effect flex flex-col sm:p-10 sm:m-20">
         <div data-aos="fade-left"
      data-aos-easing="linear"
@@ -148,17 +148,19 @@ const About = () => {
         </div>
 
         </div>
-        <div className="relative mt-44 h-[40rem] flex justify-center w-[51.2rem]">
+        <div className="relative mt-[20rem] h-[40rem] flex justify-center pb-[20rem] md:pb-[0rem] md:w-[51.2rem] ">
         <div className="flex justify-center flex-col">
            <div className="text-[8rem] tracking-widest -rotate-90 font-bold">PROJECTS</div>
             {/* <p className="text-white font-mono">These are my projects shelf</p> */}
         </div>
-        <div id="your_scene">
+        <div className="invisible md:visible" id="your_scene">
         <ComputersCanvas/>
         
         </div>
        
-         </div> 
+         </div>
+        
+         
           
            </>
     );

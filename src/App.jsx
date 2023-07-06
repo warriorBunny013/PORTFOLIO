@@ -68,8 +68,6 @@ function App() {
                  <Route exact path='/projects' element={<Projects/>}></Route>  
                  <Route exact path='/contact' element={< Contact />}></Route>  
           </Routes>  
-
-          
     </div>
     <div className="font-mono absolute right-10 text-xs pb-10">Made with ❤️ by Uditi</div>
     </BrowserRouter>

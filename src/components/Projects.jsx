@@ -6,7 +6,7 @@ const Projects = () => {
     return (
       <>
 
-<div className="lg:pl-60 lg:pt-60 lg:pr-60  sm:p-10 min-h-screen">
+<div className="md:pl-60  lg:pt-60 lg:pr-60  sm:p-10 min-h-screen">
 
  
 <div data-aos="flip-right"  className="max-w-sm w-full box  lg:max-w-full lg:flex border">
@@ -63,7 +63,7 @@ const Projects = () => {
   
 </div>
 </div>
-<div className="lg:pl-60 lg:pt-60 lg:pr-60  sm:p-10 min-h-screen">
+<div className="md:pl-60 lg:pt-60 lg:pr-60  sm:p-10 min-h-screen">
 
  
 <div data-aos="flip-right"  className="max-w-sm w-full box  lg:max-w-full lg:flex border">
