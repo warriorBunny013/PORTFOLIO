@@ -10,7 +10,7 @@ import AnimatedCursor from "react-animated-cursor"
 import { Link,BrowserRouter,Routes,Route } from "react-router-dom"
 import React,{ Suspense } from "react";
 import { motion } from "framer-motion";
-const OtherComponent = React.lazy(() => import('./components/About'));
+// const AboutComponent = React.lazy(() => import('./components/About'));
 function App() {
   return (
     <BrowserRouter>
@@ -60,10 +60,8 @@ function App() {
      <StarsCanvas/>
      </div>
      <div id="about">
-     <Suspense fallback={<div>Loading...</div>}>
-        <OtherComponent />
-      </Suspense>
-     {/* <About/> */}
+     
+     <About/>
      </div>
     <div id="projects">
     <Projects/>
