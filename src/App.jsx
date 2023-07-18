@@ -12,6 +12,11 @@ import React,{ Suspense } from "react";
 import { motion } from "framer-motion";
 // const AboutComponent = React.lazy(() => import('./components/About'));
 function App() {
+  // scene.remove(StarsCanvas);
+// clean up
+// geometry.dispose();
+// material.dispose();
+// texture.dispose();
   return (
     <BrowserRouter>
     <AnimatedCursor
@@ -57,7 +62,7 @@ function App() {
      </motion.div>
      <div className="w-screen relative z-0">
      <Home/>
-     {/* <StarsCanvas/> */}
+     <StarsCanvas/>
      </div>
      <div id="about">
      
