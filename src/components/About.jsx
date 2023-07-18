@@ -138,8 +138,8 @@ const About = () => {
       <img className="w-14" src="https://cdn-icons-png.flaticon.com/512/5968/5968705.png" alt="html" />
       <p className="text-white ml-2">Figma</p>
       </div>
-      <div>
-      <img className="w-14" src="https://img.uxwing.com/wp-content/themes/uxwing/download/brands-social-media/postman-icon.png" alt="html" />
+      <div >
+      <img className="h-14" src="postman.png" alt="html" />
       <p className="text-white ml-2">Postman</p>
       </div>
      </div>
