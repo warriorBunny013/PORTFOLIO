@@ -57,7 +57,7 @@ function App() {
      </motion.div>
      <div className="w-screen relative z-0">
      <Home/>
-     <StarsCanvas/>
+     {/* <StarsCanvas/> */}
      </div>
      <div id="about">
      
