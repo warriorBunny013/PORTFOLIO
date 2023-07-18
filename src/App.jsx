@@ -8,7 +8,9 @@ import Contact from "./components/Contact"
 import AnimatedCursor from "react-animated-cursor"
 // import Experience from "./components/Experience"
 import { Link,BrowserRouter,Routes,Route } from "react-router-dom"
-
+import React,{ Suspense } from "react";
+import { motion } from "framer-motion";
+const OtherComponent = React.lazy(() => import('./components/About'));
 function App() {
   return (
     <BrowserRouter>
@@ -27,7 +29,13 @@ function App() {
   }}
 />
     <div className="relative">
-     <div className="fixed xl:top-72 xl:-left-72 md:top-56 md:-left-56 -rotate-90 z-10 pt-10 w-[100vh] invisible md:visible">
+     <motion.div  
+           
+           className="fixed xl:top-72 xl:-left-72 md:top-56 md:-left-56 -rotate-90 z-10 pt-10 w-[100vh] invisible md:visible"
+           initial={{rotate:270,y:"1000%"}}
+           animate={{rotate:270,y:"0%"}}
+           transition={{delay:1,duration:2,ease:"easeInOut"}}  
+           >
      <div className="flex md:p-10  sm:gap-10 ml-4 opacity-75 text-base px-10 tracking-widest font-mono font-bold">
           <div className="flex   gap-5 px-4">
           <a href="https://www.linkedin.com/in/uditi-d-20573b200/">
@@ -46,13 +54,16 @@ function App() {
           {/* </div> */}
           
         </div>
-     </div>
+     </motion.div>
      <div className="w-screen relative z-0">
      <Home/>
      <StarsCanvas/>
      </div>
      <div id="about">
-     <About/>
+     <Suspense fallback={<div>Loading...</div>}>
+        <OtherComponent />
+      </Suspense>
+     {/* <About/> */}
      </div>
     <div id="projects">
     <Projects/>

@@ -5,13 +5,16 @@ AOS.init();
 const Projects = () => {
     return (
       <>
+     
+
+           
 
 <div className="md:pl-60  lg:pt-60 lg:pr-60  sm:p-10 min-h-screen">
 
  
 <div data-aos="flip-right"  className="max-w-sm w-full box  lg:max-w-full lg:flex border">
 
-<div class="ribbon"><span>FEATURED</span></div>
+<div className="ribbon"><span>FEATURED</span></div>
 <div className="min-h-auto min-w-48 max-w-10 overflow-hidden  text-center">
              <img src="orchid.png" alt="orchid" className="hover:scale-125 h-[22rem] object-cover ease-in duration-150"/>
             </div>
@@ -22,14 +25,14 @@ const Projects = () => {
            <p className="z-10 font-mono opacity-75">Youtube streaming application with personalised chatbot and create secret rooms to watch videos with your friends</p>
 </div>
 <div className='flex gap-2 flex-wrap mb-3'>
-  <span class="bg-blue-100 text-blue-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-blue-400 border border-blue-400">
-  <svg class="w-2.5 h-2.5 mr-1.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+  <span className="bg-blue-100 text-blue-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-blue-400 border border-blue-400">
+  <svg className="w-2.5 h-2.5 mr-1.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
     <path d="M10 0a10 10 0 1 0 10 10A10.011 10.011 0 0 0 10 0Zm3.982 13.982a1 1 0 0 1-1.414 0l-3.274-3.274A1.012 1.012 0 0 1 9 10V6a1 1 0 0 1 2 0v3.586l2.982 2.982a1 1 0 0 1 0 1.414Z"/>
   </svg>
   07-april-2023
 </span>
-<span class="bg-yellow-100 text-yellow-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-yellow-300 border border-yellow-300">Fullstack</span>
-<span class="bg-purple-100 text-purple-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-purple-400 border border-purple-400">Inprogress</span>
+<span className="bg-yellow-100 text-yellow-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-yellow-300 border border-yellow-300">Fullstack</span>
+<span className="bg-purple-100 text-purple-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-purple-400 border border-purple-400">Inprogress</span>
 
   </div>
 <div className='flex gap-2 flex-wrap'>
@@ -52,9 +55,9 @@ const Projects = () => {
 </div>
 
 <div className=" flex gap-2 w-1/2 items-center">
-           <a href='https://powerpuff-bugs-orchid-video-stream-hmgu.vercel.app/'><button className="cursor-pointer mt-5 px-3 py-1 hover:bg-transparent hover:animate-pulse border-2 w-full bg-white text-black font-bold hover:text-white">Live</button></a>
+           <a href='https://powerpuff-bugs-orchid-video-stream-hmgu.vercel.app/' target="_blank"><button className="cursor-pointer mt-5 px-3 py-1 hover:bg-transparent hover:animate-pulse border-2 w-full bg-white text-black font-bold hover:text-white">Live</button></a>
         
-           <a href='https://github.com/warriorBunny013/POWERPUFF-BUGS-ORCHID-VIDEO-STREAM'>
+           <a href='https://github.com/warriorBunny013/POWERPUFF-BUGS-ORCHID-VIDEO-STREAM' target="_blank">
             <button className="cursor-pointer mt-5 px-3 py-1 hover:bg-cyan-400 hover:animate-pulse border-2  w-full">Github</button></a>
            
            </div>
@@ -82,14 +85,14 @@ const Projects = () => {
            <p className="z-10 font-mono opacity-75">It helps organizations to manage tasks and distribute them among employees. It also has a real-time commenting system below each task</p>
 </div>
 <div className='flex gap-2 flex-wrap mb-3'>
-  <span class="bg-blue-100 text-blue-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-blue-400 border border-blue-400">
-  <svg class="w-2.5 h-2.5 mr-1.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+  <span className="bg-blue-100 text-blue-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-blue-400 border border-blue-400">
+  <svg className="w-2.5 h-2.5 mr-1.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
     <path d="M10 0a10 10 0 1 0 10 10A10.011 10.011 0 0 0 10 0Zm3.982 13.982a1 1 0 0 1-1.414 0l-3.274-3.274A1.012 1.012 0 0 1 9 10V6a1 1 0 0 1 2 0v3.586l2.982 2.982a1 1 0 0 1 0 1.414Z"/>
   </svg>
   21-may-2023
 </span>
-<span class="bg-yellow-100 text-yellow-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-yellow-300 border border-yellow-300">Fullstack</span>
-<span class="bg-purple-100 text-purple-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-purple-400 border border-purple-400">Inprogress</span>
+<span className="bg-yellow-100 text-yellow-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-yellow-300 border border-yellow-300">Fullstack</span>
+<span className="bg-purple-100 text-purple-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-purple-400 border border-purple-400">Inprogress</span>
 
   </div>
 <div className='flex gap-2 flex-wrap'>
@@ -113,9 +116,9 @@ const Projects = () => {
 </div>
 
 <div className=" flex gap-2 w-1/2 items-center">
-           <a href='https://taskify-mern-frontend.vercel.app'><button className="cursor-pointer mt-5 px-3 py-1 hover:bg-transparent hover:animate-pulse border-2 w-full bg-white text-black font-bold hover:text-white">Live</button></a>
+           <a href='https://taskify-mern-frontend.vercel.app' target="_blank"><button className="cursor-pointer mt-5 px-3 py-1 hover:bg-transparent hover:animate-pulse border-2 w-full bg-white text-black font-bold hover:text-white">Live</button></a>
         
-           <a href='https://github.com/warriorBunny013/TASKIFY-MERN'><button className="cursor-pointer mt-5 px-3 py-1 hover:bg-cyan-400 hover:animate-pulse border-2 w-full">Github</button></a>
+           <a href='https://github.com/warriorBunny013/TASKIFY-MERN' target="_blank"><button className="cursor-pointer mt-5 px-3 py-1 hover:bg-cyan-400 hover:animate-pulse border-2 w-full">Github</button></a>
         
            </div>
   </div>

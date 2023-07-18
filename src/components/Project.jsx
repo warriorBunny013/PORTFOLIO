@@ -22,14 +22,14 @@ const Project = () => {
            
   </div>
   <div className='flex gap-2 px-4 flex-wrap pb-4'>
-  <span class="bg-blue-100 text-blue-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-blue-400 border border-blue-400">
-  <svg class="w-2.5 h-2.5 mr-1.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+  <span className="bg-blue-100 text-blue-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-blue-400 border border-blue-400">
+  <svg className="w-2.5 h-2.5 mr-1.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
     <path d="M10 0a10 10 0 1 0 10 10A10.011 10.011 0 0 0 10 0Zm3.982 13.982a1 1 0 0 1-1.414 0l-3.274-3.274A1.012 1.012 0 0 1 9 10V6a1 1 0 0 1 2 0v3.586l2.982 2.982a1 1 0 0 1 0 1.414Z"/>
   </svg>
   13-Nov-2022
 </span>
-<span class="bg-yellow-100 text-yellow-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-yellow-300 border border-yellow-300">Fullstack</span>
-<span class="bg-purple-100 text-purple-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-purple-400 border border-purple-400">Inprogress</span>
+<span className="bg-yellow-100 text-yellow-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-yellow-300 border border-yellow-300">Fullstack</span>
+<span className="bg-purple-100 text-purple-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-purple-400 border border-purple-400">Inprogress</span>
 
   </div>
   <div className='flex gap-2 px-4 flex-wrap'>
@@ -49,9 +49,9 @@ const Project = () => {
   
 </div>
   <div className="m-2 flex gap-2 w-1/2 items-center">
-           <a href="https://delight-uditi.onrender.com"><button className="cursor-pointer mt-5 px-3 py-1 hover:bg-transparent hover:animate-pulse border-2 w-full bg-white text-black font-bold hover:text-white">Live</button></a>
+           <a href="https://delight-uditi.onrender.com" target="_blank"><button className="cursor-pointer mt-5 px-3 py-1 hover:bg-transparent hover:animate-pulse border-2 w-full bg-white text-black font-bold hover:text-white">Live</button></a>
         
-           <a href="https://github.com/warriorBunny013/Delight"><button className="cursor-pointer mt-5 px-3 py-1 hover:bg-cyan-400 hover:animate-pulse border-2 w-full">Github</button></a>
+           <a href="https://github.com/warriorBunny013/Delight" target="_blank"><button className="cursor-pointer mt-5 px-3 py-1 hover:bg-cyan-400 hover:animate-pulse border-2 w-full">Github</button></a>
         
    </div>
              </div>
@@ -94,9 +94,9 @@ const Project = () => {
   Google maps</div>
 </div>
   <div className="m-2 flex gap-2 w-1/2 items-center">
-           <a href="https://traveleasy-uditi.onrender.com"><button className="cursor-pointer mt-5 px-3 py-1 hover:bg-transparent hover:animate-pulse border-2 w-full bg-white text-black font-bold hover:text-white">Live</button></a>
+           <a href="https://traveleasy-uditi.onrender.com" target="_blank"><button className="cursor-pointer mt-5 px-3 py-1 hover:bg-transparent hover:animate-pulse border-2 w-full bg-white text-black font-bold hover:text-white">Live</button></a>
         
-           <a href="https://github.com/warriorBunny013/TravelEasy-Final"><button className="cursor-pointer mt-5 px-3 py-1 hover:bg-cyan-400 hover:animate-pulse border-2 w-full">Github</button></a>
+           <a href="https://github.com/warriorBunny013/TravelEasy-Final" target="_blank"><button className="cursor-pointer mt-5 px-3 py-1 hover:bg-cyan-400 hover:animate-pulse border-2 w-full">Github</button></a>
         
            </div>
              </div>
@@ -145,9 +145,9 @@ const Project = () => {
   
 </div>
   <div className="m-2 flex gap-2 w-1/2 items-center">
-           <a href="https://internbrand-uditi-frontend.onrender.com/"><button className="cursor-pointer mt-5 px-3 py-1 hover:bg-transparent hover:animate-pulse border-2 w-full bg-white text-black font-bold hover:text-white">Live</button></a>
+           <a href="https://internbrand-uditi-frontend.onrender.com/" target="_blank"><button className="cursor-pointer mt-5 px-3 py-1 hover:bg-transparent hover:animate-pulse border-2 w-full bg-white text-black font-bold hover:text-white">Live</button></a>
         
-           <a href="https://github.com/warriorBunny013/INTERNBRAND"><button className="cursor-pointer mt-5 px-3 py-1 hover:bg-cyan-400 hover:animate-pulse border-2 w-full">Github</button></a>
+           <a href="https://github.com/warriorBunny013/INTERNBRAND" target="_blank"><button className="cursor-pointer mt-5 px-3 py-1 hover:bg-cyan-400 hover:animate-pulse border-2 w-full">Github</button></a>
         
    </div>
              </div>
@@ -187,9 +187,9 @@ const Project = () => {
 
 </div>
   <div className="m-2 flex gap-2 w-1/2 items-center">
-           <a href="https://skia-uditi-das.onrender.com/"><button className="cursor-pointer mt-5 px-3 py-1 hover:bg-transparent hover:animate-pulse border-2 w-full bg-white text-black font-bold hover:text-white">Live</button></a>
+           <a href="https://skia-uditi-das.onrender.com/" target="_blank"><button className="cursor-pointer mt-5 px-3 py-1 hover:bg-transparent hover:animate-pulse border-2 w-full bg-white text-black font-bold hover:text-white">Live</button></a>
         
-           <a href="https://github.com/warriorBunny013/skia-reactjs"><button className="cursor-pointer mt-5 px-3 py-1 hover:bg-cyan-400 hover:animate-pulse border-2 w-full">Github</button></a>
+           <a href="https://github.com/warriorBunny013/skia-reactjs" target="_blank"><button className="cursor-pointer mt-5 px-3 py-1 hover:bg-cyan-400 hover:animate-pulse border-2 w-full">Github</button></a>
         
            </div>
              </div>
@@ -237,9 +237,9 @@ const Project = () => {
 
 </div>
   <div className="m-2 flex gap-2 w-1/2 items-center">
-           <a href="https://chatify-app.onrender.com/"><button className="cursor-pointer mt-5 px-3 py-1 hover:bg-transparent hover:animate-pulse border-2 w-full bg-white text-black font-bold hover:text-white">Live</button></a>
+           <a href="https://chatify-app.onrender.com/" target="_blank"><button className="cursor-pointer mt-5 px-3 py-1 hover:bg-transparent hover:animate-pulse border-2 w-full bg-white text-black font-bold hover:text-white">Live</button></a>
         
-           <a href="https://github.com/warriorBunny013/chat-app"><button className="cursor-pointer mt-5 px-3 py-1 hover:bg-cyan-400 hover:animate-pulse border-2 w-full">Github</button></a>
+           <a href="https://github.com/warriorBunny013/chat-app" target="_blank"><button className="cursor-pointer mt-5 px-3 py-1 hover:bg-cyan-400 hover:animate-pulse border-2 w-full">Github</button></a>
         
            </div>
              </div>
@@ -280,9 +280,9 @@ const Project = () => {
   Multer</div>
 </div>
   <div className="m-2 flex gap-2 w-1/2 items-center">
-           <a href="https://drive.google.com/file/d/10DY6If143hWy5W5pTN6-Q-dTm4D7cZGl/view?usp=sharing"><button className="cursor-pointer mt-5 px-3 py-1 hover:bg-transparent hover:animate-pulse border-2 w-full bg-white text-black font-bold hover:text-white">Live</button></a>
+           <a target="_blank" href="https://drive.google.com/file/d/10DY6If143hWy5W5pTN6-Q-dTm4D7cZGl/view?usp=sharing"><button className="cursor-pointer mt-5 px-3 py-1 hover:bg-transparent hover:animate-pulse border-2 w-full bg-white text-black font-bold hover:text-white">Live</button></a>
         
-           <a href="http://github.com/warriorBunny013/StudentDB-DentalKart"><button className="cursor-pointer mt-5 px-3 py-1 hover:bg-cyan-400 hover:animate-pulse border-2 w-full">Github</button></a>
+           <a target="_blank" href="http://github.com/warriorBunny013/StudentDB-DentalKart"><button className="cursor-pointer mt-5 px-3 py-1 hover:bg-cyan-400 hover:animate-pulse border-2 w-full">Github</button></a>
         
            </div>
              </div>
@@ -331,9 +331,9 @@ const Project = () => {
 
 </div>
   <div className="m-2 flex gap-2 w-1/2 items-center">
-           <a href="https://sportozo-uditi.netlify.app/"><button className="cursor-pointer mt-5 px-3 py-1 hover:bg-transparent hover:animate-pulse border-2 w-full bg-white text-black font-bold hover:text-white">Live</button></a>
+           <a target="_blank" href="https://sportozo-uditi.netlify.app/"><button className="cursor-pointer mt-5 px-3 py-1 hover:bg-transparent hover:animate-pulse border-2 w-full bg-white text-black font-bold hover:text-white">Live</button></a>
         
-           <a href="https://github.com/warriorBunny013/PLAYERS-DBMS-PROJECT-1"><button className="cursor-pointer mt-5 px-3 py-1 hover:bg-cyan-400 hover:animate-pulse border-2 w-full">Github</button></a>
+           <a target="_blank" href="https://github.com/warriorBunny013/PLAYERS-DBMS-PROJECT-1"><button className="cursor-pointer mt-5 px-3 py-1 hover:bg-cyan-400 hover:animate-pulse border-2 w-full">Github</button></a>
         
            </div>
              </div>
@@ -371,9 +371,9 @@ const Project = () => {
   Material UI</div>
 </div>
   <div className="m-2 flex gap-2 w-1/2 items-center">
-           <a href="https://lookup-uditidas.netlify.app"><button className="cursor-pointer mt-5 px-3 py-1 hover:bg-transparent hover:animate-pulse border-2 w-full bg-white text-black font-bold hover:text-white">Live</button></a>
+           <a target="_blank" href="https://lookup-uditidas.netlify.app"><button className="cursor-pointer mt-5 px-3 py-1 hover:bg-transparent hover:animate-pulse border-2 w-full bg-white text-black font-bold hover:text-white">Live</button></a>
         
-           <a href="https://github.com/warriorBunny013/lookup"><button className="cursor-pointer mt-5 px-3 py-1 hover:bg-cyan-400 hover:animate-pulse border-2 w-full">Github</button></a>
+           <a target="_blank" href="https://github.com/warriorBunny013/lookup"><button className="cursor-pointer mt-5 px-3 py-1 hover:bg-cyan-400 hover:animate-pulse border-2 w-full">Github</button></a>
         
            </div>
 </div>
@@ -419,9 +419,9 @@ const Project = () => {
   HTML/CSS</div>
 </div>
   <div className="m-2 flex gap-2 w-1/2 items-center">
-           <a href="https://multiply-uditidas.netlify.app/"><button className="cursor-pointer mt-5 px-3 py-1 hover:bg-transparent hover:animate-pulse border-2 w-full bg-white text-black font-bold hover:text-white">Live</button></a>
+           <a target="_blank" href="https://multiply-uditidas.netlify.app/"><button className="cursor-pointer mt-5 px-3 py-1 hover:bg-transparent hover:animate-pulse border-2 w-full bg-white text-black font-bold hover:text-white">Live</button></a>
         
-           <a href="https://github.com/warriorBunny013/Multiply-multipurpose-website"><button className="cursor-pointer mt-5 px-3 py-1 hover:bg-cyan-400 hover:animate-pulse border-2 w-full">Github</button></a>
+           <a target="_blank" href="https://github.com/warriorBunny013/Multiply-multipurpose-website"><button className="cursor-pointer mt-5 px-3 py-1 hover:bg-cyan-400 hover:animate-pulse border-2 w-full">Github</button></a>
         
            </div>
              </div>
@@ -457,9 +457,9 @@ const Project = () => {
   Bootstrap</div>
 </div>
   <div className="m-2 flex gap-2 w-1/2 items-center">
-           <a href="https://frontend-uditi-das013.netlify.app/"><button className="cursor-pointer mt-5 px-3 py-1 hover:bg-transparent hover:animate-pulse border-2 w-full bg-white text-black font-bold hover:text-white">Live</button></a>
+           <a target="_blank" href="https://frontend-uditi-das013.netlify.app/"><button className="cursor-pointer mt-5 px-3 py-1 hover:bg-transparent hover:animate-pulse border-2 w-full bg-white text-black font-bold hover:text-white">Live</button></a>
         
-           <a href="https://github.com/warriorBunny013/frontend"><button className="cursor-pointer mt-5 px-3 py-1 hover:bg-cyan-400 hover:animate-pulse border-2 w-full">Github</button></a>
+           <a target="_blank" href="https://github.com/warriorBunny013/frontend"><button className="cursor-pointer mt-5 px-3 py-1 hover:bg-cyan-400 hover:animate-pulse border-2 w-full">Github</button></a>
         
            </div>
              </div>
