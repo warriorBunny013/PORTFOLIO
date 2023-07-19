@@ -55,9 +55,9 @@ const Projects = () => {
 </div>
 
 <div className=" flex gap-2 w-1/2 items-center">
-           <a href='https://powerpuff-bugs-orchid-video-stream-hmgu.vercel.app/' target="_blank"><button className="cursor-pointer mt-5 px-3 py-1 hover:bg-transparent hover:animate-pulse border-2 w-full bg-white text-black font-bold hover:text-white">Live</button></a>
+           <a href='https://https-orchid-uditi-das-onrender-com.onrender.com' target="_blank"><button className="cursor-pointer mt-5 px-3 py-1 hover:bg-transparent hover:animate-pulse border-2 w-full bg-white text-black font-bold hover:text-white">Live</button></a>
         
-           <a href='https://github.com/warriorBunny013/POWERPUFF-BUGS-ORCHID-VIDEO-STREAM' target="_blank">
+           <a href='https://github.com/warriorBunny013/ORCHID-yt-watch-party' target="_blank">
             <button className="cursor-pointer mt-5 px-3 py-1 hover:bg-cyan-400 hover:animate-pulse border-2  w-full">Github</button></a>
            
            </div>
