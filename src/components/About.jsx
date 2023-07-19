@@ -18,11 +18,11 @@ const About = () => {
        <div data-aos="fade-left"
      data-aos-easing="linear" className="text-wrap p-2 md:h-full font-mono pt-3"> 
      <p className="fonthtml flex ">{`<p>`}</p>
-     Hi there! I'm <span className="text-cyan-400">Uditi Das</span>, a passionate web developer with experience in  <span className="text-cyan-400"> frontend </span> development, <span className="text-cyan-400"> backend</span> programming, <span className="text-cyan-400"> databases</span>, as well as <span className="text-cyan-400">AWS</span>. I love learning new things by diving into hands-on projects and pushing the boundaries of my skills.
+     Hey there! I'm <span className="text-cyan-400">Uditi Das</span>, a passionate web developer with experience in  <span className="text-cyan-400"> frontend </span> development, <span className="text-cyan-400"> backend</span> programming, <span className="text-cyan-400"> databases</span>, as well as <span className="text-cyan-400">AWS</span>. I love learning new things by diving into hands-on projects and pushing the boundaries of my skills.
      I am passionate about creating user-friendly and scalable web applications that inspires.
      <br/>
      <br/>
-     Alongside coding, I have a strong affinity for paintings, which fuel my creativity. Currently pursuing my B.Tech in CSE from <span className="text-cyan-400"> IIIT Jabalpur</span>, set to graduate in 2025.
+     Alongside coding, I have a strong affinity for paintings, which fuel my creativity. Currently pursuing B.Tech in CSE from <span className="text-cyan-400"> IIIT Jabalpur</span>, set to graduate in 2025.
      <p className="fonthtml flex justify-end">{`</p>`}</p>
      <div id="skill" data-aos="fade-left"
      data-aos-easing="linear"
