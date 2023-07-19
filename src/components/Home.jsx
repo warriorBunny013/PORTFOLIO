@@ -43,7 +43,7 @@ const Home = () => {
                 className="flex justify-between"
                 
               >
-                <a href="uditi_resume.pdf" target="_blank"><button className=" cursor-pointer mt-5 px-3 py-1 hover:bg-cyan-400 hover:animate-pulse border-2 font-mono" >Resume</button> </a>
+                <a href="UDITI_DAS_SDE.pdf" target="_blank"><button className=" cursor-pointer mt-5 px-3 py-1 hover:bg-cyan-400 hover:animate-pulse border-2 font-mono" >Resume</button> </a>
                 <p className="fonthtml flex ">{`</p>`}</p>
                 </motion.div>
 
