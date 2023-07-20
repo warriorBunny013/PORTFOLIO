@@ -1,10 +1,21 @@
 
 import { ComputersCanvas } from "./canvas";
-import AOS from 'aos';
-import 'aos/dist/aos.css';
-import Projects from "./Projects";
-AOS.init();
-const About = () => {
+// import AOS from 'aos';
+// import 'aos/dist/aos.css';
+// AOS.init();
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
+
+// init AOS animation
+
+function About(){
+
+  useEffect(() => {
+    AOS.init();
+  }, []);
+
+
     return (
       <>
        <div className=" flex flex-col lg:pl-40 min-h-screen mt-[20rem] md:mt-[10rem] lg:pr-40">

@@ -1,8 +1,12 @@
+import {useEffect} from "react"
+import AOS from "aos";
+import "aos/dist/aos.css";
 
-import AOS from 'aos';
-import 'aos/dist/aos.css';
-AOS.init();
 const Projects = () => {
+
+  useEffect(() => {
+    AOS.init();
+  }, []);
     return (
       <>
      
@@ -66,12 +70,13 @@ const Projects = () => {
   
 </div>
 </div>
+
 <div className="md:pl-60 lg:pt-60 lg:pr-60  sm:p-10 min-h-screen">
 
  
 <div data-aos="flip-right"  className="max-w-sm w-full box  lg:max-w-full lg:flex border">
 
-<div class="ribbon"><span>FEATURED</span></div>
+<div className="ribbon"><span>FEATURED</span></div>
 <div>
 <div className="min-h-auto min-w-48 max-w-10 w-100 overflow-hidden border text-center">
      <img src="taskify-photo.png" alt="orchid" style={{objectFit: "cover"}} className="hover:scale-125 object-cover  h-[21rem] ease-in duration-150"/>
@@ -124,7 +129,6 @@ const Projects = () => {
   </div>
 </div>
 </div>
-        
            </>
     );
 }

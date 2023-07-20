@@ -1,24 +1,17 @@
-import SideNav from "./components/SideNav"
+
 import Home from "./components/Home"
 import { StarsCanvas } from "./components"
-import Projects from "./components/Projects"
-import Project from "./components/Project"
-import About from "./components/About"
-import Contact from "./components/Contact"
+import Projects from "./components/Projects.jsx"
+import Project from "./components/Project.jsx"
+import About from "./components/About.jsx"
+import Contact from "./components/Contact.jsx"
 import AnimatedCursor from "react-animated-cursor"
-// import Experience from "./components/Experience"
-import { Link,BrowserRouter,Routes,Route } from "react-router-dom"
-import React,{ Suspense } from "react";
+// import { BrowserRouter,Routes,Route } from "react-router-dom"
+import React from "react";
 import { motion } from "framer-motion";
-// const AboutComponent = React.lazy(() => import('./components/About'));
 function App() {
-  // scene.remove(StarsCanvas);
-// clean up
-// geometry.dispose();
-// material.dispose();
-// texture.dispose();
   return (
-    <BrowserRouter>
+    <>
     <AnimatedCursor
   innerSize={8}
   outerSize={35}
@@ -65,7 +58,6 @@ function App() {
      <StarsCanvas/>
      </div>
      <div id="about">
-     
      <About/>
      </div>
     <div id="projects">
@@ -77,14 +69,10 @@ function App() {
     <div id="contact">
     <Contact/>
     </div>
-      <Routes>  
-              <Route exact path='/about' element={<About/>}></Route>  
-                 <Route exact path='/projects' element={<Projects/>}></Route>  
-                 <Route exact path='/contact' element={< Contact />}></Route>  
-          </Routes>  
     </div>
     <div className="font-mono absolute right-10 text-xs pb-10">Made with ❤️ by Uditi</div>
-    </BrowserRouter>
+    </>
+   
   )
 }
 

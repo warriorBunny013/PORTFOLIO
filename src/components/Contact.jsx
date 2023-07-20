@@ -1,8 +1,10 @@
-
+import { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-AOS.init();
 const Contact = () => {
+	useEffect(() => {
+		AOS.init();
+	  }, []);
     return (
       <>
         <div className="flex justify-center items-center h-screen ">
