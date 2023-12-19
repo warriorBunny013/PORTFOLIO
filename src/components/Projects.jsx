@@ -19,7 +19,7 @@ const Projects = () => {
 <div data-aos="flip-right"  className="max-w-sm w-full box  lg:max-w-full lg:flex border">
 
 <div className="ribbon"><span>FEATURED</span></div>
-<div className="min-h-auto min-w-48 max-w-10 overflow-hidden  text-center">
+<div className="min-h-auto min-w-48 max-w-sm overflow-hidden  text-center">
              <img src="orchid.png" alt="orchid" className="hover:scale-125 h-[22rem] object-cover ease-in duration-150"/>
             </div>
   <div className="p-4 flex flex-col justify-between leading-normal">
@@ -78,8 +78,8 @@ const Projects = () => {
 
 <div className="ribbon"><span>FEATURED</span></div>
 <div>
-<div className="min-h-auto min-w-48 max-w-10 w-100 overflow-hidden border text-center">
-     <img src="taskify-photo.png" alt="orchid" style={{objectFit: "cover"}} className="hover:scale-125 object-cover  h-[21rem] ease-in duration-150"/>
+<div className="min-h-auto min-w-48 max-w-sm xl:max-w-2xl overflow-hidden  text-center">
+     <img src="taskify-photo.png" alt="taskify"  className="hover:scale-125  h-[22rem] ease-in object-cover duration-150"/>
   </div>
 </div>
 
